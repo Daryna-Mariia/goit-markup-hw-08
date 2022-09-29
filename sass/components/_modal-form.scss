@@ -43,7 +43,7 @@ fill: #2196F3;
     font-weight: 700;
     text-align: center;
     margin-bottom: 20px;
-    white-space: nowrap;
+    // white-space: nowrap;
     color: rgba(33, 33, 33, 1);
 }
 .modal-form {
@@ -237,3 +237,20 @@ fill: #2196F3;
 
 }
 
+@media screen and (max-width:479px){
+  .modal{
+    width: 300px;
+    height: 609px;
+  }
+}
+
+@media screen and (max-width:1199px){
+  .modal{
+    max-width: 450px;
+    height: 609px;
+  }
+  .modal-form-check-field{
+    font-size: 12px;
+    line-height: 1.15;
+  }
+}

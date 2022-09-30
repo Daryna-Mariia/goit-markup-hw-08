@@ -1,6 +1,7 @@
 @media screen and (max-width: 767px){
     .menu{
         display: none;
+        
     }
     
     .page-header__contect{
@@ -11,7 +12,9 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    
+
+
+ 
     .page-header_container{
         display: flex;
         align-items: center;
@@ -64,7 +67,7 @@
     .menu{
         display: flex;
         column-gap: 50px;
-        margin-left: 87px;
+        // margin-left: 87px;
        }
 
     .menu__link{
@@ -176,4 +179,18 @@
      align-items:center;
      padding: 1px;
     column-gap: 10px;
- }}
+ }
+
+ .page-header__logo{
+   
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--header-logo-color);
+    margin-right: 93px;
+    }
+    
+    .page-header__logo-word{
+        color: var(--accent-color);
+    }}

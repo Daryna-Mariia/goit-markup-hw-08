@@ -3,10 +3,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
     background-color: rgba(255, 255, 255, 1);
     padding: 40px;
+    width: 100%;
   }
 .modal-close-bt{
     position: absolute;
@@ -240,14 +239,15 @@ fill: #2196F3;
 @media screen and (max-width:479px){
   .modal{
     width: 300px;
-    height: 609px;
+   
+    
   }
 }
 
 @media screen and (max-width:1199px){
   .modal{
     max-width: 450px;
-    height: 609px;
+  
   }
   .modal-form-check-field{
     font-size: 12px;
